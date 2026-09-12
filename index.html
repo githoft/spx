@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VELAM</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      background: #000;
+      color: #fff;
+      overflow: hidden;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .velam {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      font-family: "Playfair Display", serif;
+      font-size: clamp(60px, 8vw, 140px);
+      font-weight: 500;
+      letter-spacing: 1px;
+      line-height: 1;
+      white-space: nowrap;
+    }
+
+    .spx {
+      position: absolute;
+      right: -36px;
+      bottom: -13px;
+
+      font-family: "Inter", sans-serif;
+      font-size: calc(clamp(60px, 8vw, 140px) * 1.618);
+      font-weight: 600;
+      line-height: 1;
+      white-space: nowrap;
+    }
+
+    .spx .s {
+      position: relative;
+    }
+
+    .spx .p {
+      position: relative;
+      left: -12px;
+    }
+
+    .spx .x {
+      position: relative;
+      left: -32px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <a class="velam" href="https://x.com/VELAMapp">
+    VELAM
+  </a>
+
+  <a class="spx" href="https://x.com/VELAMapp">
+    <span class="s">S</span><span class="p">P</span><span class="x">X</span>
+  </a>
+
+</body>
+</html>
